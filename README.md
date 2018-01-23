@@ -1,5 +1,5 @@
 # leetcodeRecords
  
-# the way to solve LeetCode problems by myself
+the way to solve LeetCode problems by myself
   
-# here is the daily records
+here is the daily records
