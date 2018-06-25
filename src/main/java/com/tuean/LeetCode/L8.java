@@ -3,7 +3,7 @@ package com.tuean.LeetCode;
 /**
  * Created by zhongxiaotian on 2018/1/24.
  */
-public class Eight {
+public class L8 {
     public static int myAtoi(String str) {
         if(str == null || "".equals(str)){
             return 0;
