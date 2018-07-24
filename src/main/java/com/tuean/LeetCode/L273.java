@@ -7,6 +7,7 @@ public class L273 {
 
     // max = 2^31-1 = 2,147,483,648 = Integer.Max_Value
 
+    // 速度太慢 需要优化
     public static String numberToWords(int num) {
         String result = "";
         if(num == 0){
