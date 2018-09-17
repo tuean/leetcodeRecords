@@ -43,6 +43,8 @@ public class L887 {
 //    鸡蛋碎了 检查dp[m - 1][k - 1]
 //    没碎    检查dp[m - 1][k - 1]
 
+//    https://juejin.im/post/5b98785de51d450e71250aab?utm_source=gold_browser_extension
+
     public static int superEggDrop(int K, int N) {
         int[][] dp = new int[N + 1][K + 1];
         int m = 0;
