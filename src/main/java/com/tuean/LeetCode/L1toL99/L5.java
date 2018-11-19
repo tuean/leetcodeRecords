@@ -46,5 +46,9 @@ public class L5 {
         }
     }
 
+    // manacher 算法
+    // https://segmentfault.com/a/1190000003914228#articleHeader5
+    // https://juejin.im/entry/5beaf63e6fb9a04a0f64b823?utm_source=gold_browser_extension
+
 
 }
