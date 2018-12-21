@@ -6,5 +6,7 @@ public class L847 {
 
     public int shortestPathLength(int[][] graph) {
 
+        // todo 搞不来搞不来  姿势还是需要提高
+        return 0;
     }
 }
