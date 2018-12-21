@@ -21,11 +21,11 @@ public class L190 {
         return result;
     }
 
+    //将整数num转化为32位的二进制
 
-    public static String toFullBinaryString(int num) { //将整数num转化为32位的二进制
+    public static String toFullBinaryString(int num) {
         char[] chs = new char[Integer.SIZE];
-        for (int i = 0; i < Integer.SIZE; i++)
-        {
+        for (int i = 0; i < Integer.SIZE; i++) {
             chs[Integer.SIZE - 1 - i] = (char) (((num >> i) & 1) + '0');
             System.out.println(chs[Integer.SIZE - 1 - i]);
         }
