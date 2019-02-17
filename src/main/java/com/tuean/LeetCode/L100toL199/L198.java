@@ -20,10 +20,10 @@ public class L198 {
     }
 
 //    dp[i][1] means we rob the current house and dp[i][0] means we don't,
-//
+
 //    so it is easy to convert this to O(1) space
 
-    public int rob1(int[] num) {
+    public static int rob1(int[] num) {
         int prevNo = 0;
         int prevYes = 0;
         for (int n : num) {
@@ -32,5 +32,10 @@ public class L198 {
             prevYes = n + temp;
         }
         return Math.max(prevNo, prevYes);
+    }
+
+
+    public static void main(String[] args) {
+        rob1(new int[]{1,2,3,1});
     }
 }
