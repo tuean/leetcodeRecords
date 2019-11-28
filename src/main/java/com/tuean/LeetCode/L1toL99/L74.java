@@ -1,5 +1,8 @@
 package com.tuean.LeetCode.L1toL99;
 
+/**
+ * equal to L240
+ */
 public class L74 {
 
 
