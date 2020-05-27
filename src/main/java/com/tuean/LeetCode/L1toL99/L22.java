@@ -1,5 +1,7 @@
 package com.tuean.LeetCode.L1toL99;
 
+import com.alibaba.fastjson.JSON;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,6 +31,6 @@ public class L22 {
 
 
     public static void main(String[] args) {
-        generateParenthesis(3);
+        System.out.println(JSON.toJSONString(generateParenthesis(3)));
     }
 }

@@ -1,5 +1,6 @@
 package com.tuean.LeetCode.L100toL199;
 
+
 import com.alibaba.fastjson.JSON;
 
 public class L189 {
