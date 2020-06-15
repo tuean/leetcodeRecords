@@ -1,4 +1,4 @@
-package com.tuean.Algorithm;
+package com.tuean.Algorithm.String;
 
 public class Manacher {
 

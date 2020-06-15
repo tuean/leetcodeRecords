@@ -1,7 +1,8 @@
-package com.tuean.Algorithm;
+package com.tuean.Algorithm.sort;
 
 public class RadixSort {
 
+    // 基数排序
 
     public static int[] sort(int[] nums) {
         // find the max value in the nums
