@@ -18,8 +18,8 @@ public class L77 {
 
     public void cal(int n, int k, int begin, List<Integer> list, List<List<Integer>> result) {
         if (list.size() == k) {
-            List<Integer> list1 = List.copyOf(list);
-            result.add(list1);
+//            List<Integer> list1 = List.copyOf(list);
+//            result.add(list1);
             return;
         }
 
